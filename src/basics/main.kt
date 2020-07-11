@@ -34,6 +34,7 @@ print(message)
     val random : MutableList<Int> = mutableListOf()
     for(i in 1..100)
     {
+        //random.add(Specified range)
         random.add(Random.nextInt(100)+1)
     }
     var i=0
